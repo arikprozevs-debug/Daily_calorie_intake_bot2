@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8743418563:AAE1POmWzDtJxuXXD-XguEbEpaeOD9Xt8CI")
 WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://your-app.vercel.app")
 
 # ── База продуктов (на 100г) ──────────────────────────────────────────────────
